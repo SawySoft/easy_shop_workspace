@@ -2,7 +2,7 @@ class EndPoints {
 
   static const String baseUrl = "https://easylearn.devawy.com/api/";
 
-  static const String apiKey = 'wQ9KxY7nP2LrA5FmD8TsV1BhE6JzNc4UyRg3KqXpWoMf7CdSaHt9LeIk2On8GbYu';
+  static const String apiKey = 'YOUR_API_KEY_HERE';
 
   ///OTP
   static const String verifyOtp = "client/otp/verify";
