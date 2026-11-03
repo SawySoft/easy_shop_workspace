@@ -1,0 +1,56 @@
+# ==========================================
+# Flutter / Dart / Pub
+# ==========================================
+**/build/
+**/.dart_tool/
+**/.packages
+**/.pub/
+**/.pub-cache/
+**/doc/api/
+**/coverage/
+
+# ==========================================
+# Environment Variables & API Secrets (Dio & App Keys)
+# ==========================================
+**/.env
+**/.env.*
+**/android/key.properties
+*.jks
+*.keystore
+*.p12
+*.key
+
+# ==========================================
+# Android Studio & Gradle
+# ==========================================
+.gradle/
+**/android/.gradle/
+**/android/local.properties
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
+
+# ==========================================
+# Xcode & iOS
+# ==========================================
+**/ios/Flutter/.last_build_id
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcshareddata/
+
+# ==========================================
+# Editors & OS Files
+# ==========================================
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.DS_Store
+*.log
+*.swp
+.history
